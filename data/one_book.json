@@ -1,0 +1,100 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 1,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "-O3r6D1KutAC",
+      "etag": "K50oDVzhlDA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/-O3r6D1KutAC",
+      "volumeInfo": {
+        "title": "Pattern Recognition",
+        "authors": [
+          "William Gibson"
+        ],
+        "publisher": "Penguin",
+        "publishedDate": "2003-02-03",
+        "description": "The accolades and acclaim are endless for William Gibson's coast-to-coast bestseller. Set in the post-9/11 present, Pattern Recognition is the story of one woman's never-ending search for the now.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1101146419"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781101146415"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 384,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 3.5,
+        "ratingsCount": 44,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.4.6.0.preview.2",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=-O3r6D1KutAC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=-O3r6D1KutAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=-O3r6D1KutAC&printsec=frontcover&dq=gibson&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=-O3r6D1KutAC&dq=gibson&hl=&source=gbs_api",
+        "canonicalVolumeLink": "http://books.google.com/books/about/Pattern_Recognition.html?hl=&id=-O3r6D1KutAC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 7.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 7.99,
+          "currencyCode": "USD"
+        },
+        "buyLink": "http://books.google.com/books?id=-O3r6D1KutAC&dq=gibson&hl=&buy=&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 7990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 7990000,
+              "currencyCode": "USD"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Pattern_Recognition-sample-epub.acsm?id=-O3r6D1KutAC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://books.google.com/books/reader?id=-O3r6D1KutAC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "The accolades and acclaim are endless for William Gibson&#39;s coast-to-coast bestseller. Set in the post-9/11 present, Pattern Recognition is the story of one woman&#39;s never-ending search for the now."
+      }
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 766,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "sshKXlr32-AC",
+      "etag": "DV+HNjWTmk8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/sshKXlr32-AC",
+      "volumeInfo": {
+        "title": "Mastering Regular Expressions",
+        "authors": [
+          "Jeffrey E.F. Friedl"
+        ],
+        "publisher": "\"O'Reilly Media, Inc.\"",
+        "publishedDate": "2006-08-08",
+        "description": "Regular expressions are an extremely powerful tool for manipulating text and data. They are now standard features in a wide range of languages and popular tools, including Perl, Python, Ruby, Java, VB.NET and C# (and any language using the .NET Framework), PHP, and MySQL. If you don't use regular expressions yet, you will discover in this book a whole new world of mastery over your data. If you already use them, you'll appreciate this book's unprecedented detail and breadth of coverage. If you think you know all you need to know about regularexpressions, this book is a stunning eye-opener. As this book shows, a command of regular expressions is an invaluable skill. Regular expressions allow you to code complex and subtle text processing that you never imagined could be automated. Regular expressions can save you time and aggravation. They can be used to craft elegant solutions to a wide range of problems. Once you've mastered regular expressions, they'll become an invaluable part of your toolkit. You will wonder how you ever got by without them. Yet despite their wide availability, flexibility, and unparalleled power, regular expressions are frequently underutilized. Yet what is power in the hands of an expert can be fraught with peril for the unwary. Mastering Regular Expressions will help you navigate the minefield to becoming an expert and help you optimize your use of regular expressions. Mastering Regular Expressions, Third Edition, now includes a full chapter devoted to PHP and its powerful and expressive suite of regular expression functions, in addition to enhanced PHP coverage in the central \"core\" chapters. Furthermore, this edition has been updated throughout to reflect advances in other languages, including expanded in-depth coverage of Sun's java.util.regex package, which has emerged as the standard Java regex implementation.Topics include: A comparison of features among different versions of many languages and tools How the regular expression engine works Optimization (major savings available here!) Matching just what you want, but not what you don't want Sections and chapters on individual languages Written in the lucid, entertaining tone that makes a complex, dry topic become crystal-clear to programmers, and sprinkled with solutions to complex real-world problems, Mastering Regular Expressions, Third Edition offers a wealth information that you can put to immediateuse. Reviews of this new edition and the second edition: \"There isn't a better (or more useful) book available on regular expressions.\" --Zak Greant, Managing Director, eZ Systems \"A real tour-de-force of a book which not only covers the mechanics of regexes in extraordinary detail but also talks about efficiency and the use of regexes in Perl, Java, and .NET...If you use regular expressions as part of your professional work (even if you already have a good book on whatever language you're programming in) I would strongly recommend this book to you.\" --Dr. Chris Brown, Linux Format \"The author does an outstanding job leading the reader from regexnovice to master. The book is extremely easy to read and chock full ofuseful and relevant examples...Regular expressions are valuable toolsthat every developer should have in their toolbox. Mastering RegularExpressions is the definitive guide to the subject, and an outstandingresource that belongs on every programmer's bookshelf. Ten out of TenHorseshoes.\" --Jason Menard, Java Ranch",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781449332532"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1449332536"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 544,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 24,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "3.10.9.0.preview.3",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=sshKXlr32-AC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=sshKXlr32-AC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=sshKXlr32-AC&printsec=frontcover&dq=regex&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=sshKXlr32-AC&dq=regex&hl=&source=gbs_api",
+        "canonicalVolumeLink": "http://books.google.com/books/about/Mastering_Regular_Expressions.html?hl=&id=sshKXlr32-AC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 42.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 31.81,
+          "currencyCode": "USD"
+        },
+        "buyLink": "http://books.google.com/books?id=sshKXlr32-AC&dq=regex&hl=&buy=&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 42990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 31810000,
+              "currencyCode": "USD"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://books.google.com/books/reader?id=sshKXlr32-AC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "If you think you know all you need to know about regularexpressions, this book is a stunning eye-opener. As this book shows, a command of regular expressions is an invaluable skill."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "a89b0qhZwOoC",
+      "etag": "LfBDR/UhyoU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/a89b0qhZwOoC",
+      "volumeInfo": {
+        "title": "Java Regular Expressions",
+        "subtitle": "Taming the java.util.regex Engine",
+        "authors": [
+          "Mehran Habibi"
+        ],
+        "publisher": "Apress",
+        "publishedDate": "2008-01-01",
+        "description": "Expert author Habibi offers a look at what regular expressions are and how to use the Java library to process them. His book uses plenty of examples to show typical and atypical uses of the library, thus becoming a powerful learning tool. For instance, comprehensive examples for each and every regex method and class are given, along with advice on their appropriate use and performance considerations.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781430207092"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1430207094"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 280,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.2.1.0.preview.1",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=a89b0qhZwOoC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=a89b0qhZwOoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=a89b0qhZwOoC&printsec=frontcover&dq=regex&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=a89b0qhZwOoC&dq=regex&hl=&source=gbs_api",
+        "canonicalVolumeLink": "http://books.google.com/books/about/Java_Regular_Expressions.html?hl=&id=a89b0qhZwOoC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 39.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 31.19,
+          "currencyCode": "USD"
+        },
+        "buyLink": "http://books.google.com/books?id=a89b0qhZwOoC&dq=regex&hl=&buy=&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 39990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 31190000,
+              "currencyCode": "USD"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Java_Regular_Expressions-sample-pdf.acsm?id=a89b0qhZwOoC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://books.google.com/books/reader?id=a89b0qhZwOoC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Expert author Habibi offers a look at what regular expressions are and how to use the Java library to process them."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "0Msuh5Vq-uYC",
+      "etag": "jAEN+YEu3zU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/0Msuh5Vq-uYC",
+      "volumeInfo": {
+        "title": "Regular Expressions Cookbook",
+        "authors": [
+          "Jan Goyvaerts",
+          "Steven Levithan"
+        ],
+        "publisher": "\"O'Reilly Media, Inc.\"",
+        "publishedDate": "2012-08-13",
+        "description": "Take the guesswork out of using regular expressions. With more than 140 practical recipes, this cookbook provides everything you need to solve a wide range of real-world problems. Novices will learn basic skills and tools, and programmers and experienced users will find a wealth of detail. Each recipe provides samples you can use right away. This revised edition covers the regular expression flavors used by C#, Java, JavaScript, Perl, PHP, Python, Ruby, and VB.NET. You’ll learn powerful new tricks, avoid flavor-specific gotchas, and save valuable time with this huge library of practical solutions. Learn regular expressions basics through a detailed tutorial Use code listings to implement regular expressions with your language of choice Understand how regular expressions differ from language to language Handle common user input with recipes for validation and formatting Find and manipulate words, special characters, and lines of text Detect integers, floating-point numbers, and other numerical formats Parse source code and process log files Use regular expressions in URLs, paths, and IP addresses Manipulate HTML, XML, and data exchange formats Discover little-known regular expression tricks and techniques",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781449327484"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1449327486"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 612,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "2.2.2.0.preview.3",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=0Msuh5Vq-uYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=0Msuh5Vq-uYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=0Msuh5Vq-uYC&printsec=frontcover&dq=regex&hl=&cd=3&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=0Msuh5Vq-uYC&dq=regex&hl=&source=gbs_api",
+        "canonicalVolumeLink": "http://books.google.com/books/about/Regular_Expressions_Cookbook.html?hl=&id=0Msuh5Vq-uYC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 39.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 31.19,
+          "currencyCode": "USD"
+        },
+        "buyLink": "http://books.google.com/books?id=0Msuh5Vq-uYC&dq=regex&hl=&buy=&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 39990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 31190000,
+              "currencyCode": "USD"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://books.google.com/books/reader?id=0Msuh5Vq-uYC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Each recipe provides samples you can use right away. This revised edition covers the regular expression flavors used by C#, Java, JavaScript, Perl, PHP, Python, Ruby, and VB.NET."
+      }
+    }
+  ]
+}
