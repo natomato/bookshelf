@@ -3,8 +3,9 @@ var Namer = require('../name-db');
 var router = express.Router();
 
 /* GET greetings listing. */
-router.get('/', function(req, res, next) {
-  res.render('greetings', {names: Namer.getRandomNames(3)});
+router.get('/:size', function(req, res, next) {
+  var size = req.params;
+  res.render('greetings', {names: Namer.getRandomNames(size)});
 });
 
 module.exports = router;
