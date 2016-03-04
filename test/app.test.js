@@ -37,4 +37,16 @@ describe('Bookshelf App', function () {
       });
     });
   });
+
+  describe('the results page', function () {
+
+    it('should display a list of book titles', function (done) {
+      request.get(baseUrl + '/books?author=gibson', function (err, resp) {
+        expect(err).to.not.be.ok;
+        expect(resp).to.have.property('status', 200);
+        expect(resp.text).to.match(/Pattern Recognition/);
+        expect(resp.text).to.match(/The Peripheral/);
+      });
+    });
+  });
 });
