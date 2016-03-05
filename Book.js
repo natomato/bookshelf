@@ -2,13 +2,11 @@
 
 var rp = require('request-promise');
 var _ = require('lodash/fp');
-var SAMPLE = require('./data/BOOKS');
-var aBook = require('./data/one_book');
+var aBook = require('./data/book');
 var manybooks = require('./data/three_books');
 
 var Book = function () {
   console.log('book created', Object.keys(this));
-  this.SAMPLE = SAMPLE;
   this.manybooks = manybooks;
 };
 
@@ -55,7 +53,7 @@ Book.prototype.getModel = function (item) {
     thumbnail: item.volumeInfo.imageLinks.thumbnail,
     description: item.volumeInfo.description,
     pageCount: item.volumeInfo.pageCount,
-    libraryIdentifiers: item.volumeInfo.industryIdentifiers
+    industryIdentifiers: item.volumeInfo.industryIdentifiers
   }
 }
 
