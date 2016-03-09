@@ -4,20 +4,32 @@ var BOOKS = require('../../data/books_one');
 var getBooks = require('../../results')
 var books = getBooks(BOOKS);
 
-var BookRow = React.createClass({
-  render: function () {
-    // let book = getBooks(BOOKS).get(0);
-    console.log(this.props);
-    //TODO: looks hacky to pass props in like this. what is a better way?
-    var title = this.props.route.book.get('title');
-    var description = this.props.route.book.get('description');
+
+class BookList extends React.Component {
+  render() {
     return (
-      <div>
-        <h1>{title}</h1>
-        <p>{description}</p>
-      </div>
+      <ul>
+        Results
+        {this.props.route.books.map(book => {
+          return <BookRow key={book.get('id')} book={book} />;
+        })}
+      </ul>
     );
   }
-});
+}
 
-module.exports = BookRow;
+
+class BookRow extends React.Component {
+  render() {
+    let title = this.props.book.get('title');
+    let description = this.props.book.get('description');
+    return (
+      <li>
+        <h2>{title}</h2>
+        <p>{description}</p>
+      </li>
+    );
+  }
+};
+
+module.exports = BookList;
