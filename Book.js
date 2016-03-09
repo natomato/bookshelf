@@ -3,7 +3,7 @@
 var rp = require('request-promise');
 var _ = require('lodash/fp');
 var aBook = require('./data/book');
-var manybooks = require('./data/three_books');
+var manybooks = require('./data/books_three');
 
 var Book = function () {
   console.log('book created', Object.keys(this));

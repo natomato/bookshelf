@@ -1,12 +1,7 @@
-import {Map, List, fromJS} from 'immutable';
-//Functions to convert gbook results to usable book list
+var Immutable = require('immutable');
 
-//extract a list of books from results
-//pass each book to a build function
-
-
-export function extractBook (item) {
-  return fromJS({
+function extractBook (item) {
+  return Immutable.fromJS({
     id: item.id,
     title: item.volumeInfo.title,
     authors: item.volumeInfo.authors,
@@ -16,4 +11,12 @@ export function extractBook (item) {
     pageCount: item.volumeInfo.pageCount,
     industryIdentifiers: item.volumeInfo.industryIdentifiers
   });
+}
+
+module.exports = function getBooks (results) {
+  return Immutable.List(results.items.map(item => extractBook(item)));
+  // return Immutable.Map(results.items.map(item => {
+  //     let book = extractBook(item);
+  //     return [book.id, book]
+  //   }));
 }
