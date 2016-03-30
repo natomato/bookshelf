@@ -14,13 +14,14 @@ Action: SEARCH
 
 ### Filter
 State: ```filter: 'someFilter'```  
-Action: FILTER
+Action: SET_RESOURCE_FILTER
 ```js
 {
-  type: FILTER,
+  type: RESOURCE_FILTER,
   filter: 'books'  
 }
 ```
+Later I may want to add an availability filter.
 
 ### ItemsContainer
 State:   
@@ -50,4 +51,4 @@ State:
   }
 }
 ```
-Action: none
+Action: none, but clicking on an item should link to the items detail page.
