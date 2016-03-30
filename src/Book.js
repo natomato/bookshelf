@@ -1,7 +1,3 @@
-//creating an sdk
-
-var rp = require('request-promise');
-var _ = require('lodash/fp');
 var aBook = require('./data/book');
 var manybooks = require('./data/books_three');
 
@@ -36,6 +32,7 @@ var options = {
 
 Book.prototype.processCollection = function (limit, volumes) {
   var volumes = volumes || manybooks;
+  const _ = {}; //lodash was removed
   return _.chain(volumes)
     .take(limit)
     .map(this.getModel)
