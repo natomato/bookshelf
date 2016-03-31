@@ -1,22 +1,25 @@
-//TODO: use path variable for file dirs join __dirname
+import path from 'path';
+
 module.exports = {
-  entry: './app/Main.jsx',
+  entry: [
+    './src/index.js'
+  ],
   output: {
-    filename: 'public/bundle.js'
+    path: path.resolve(__dirname, 'dist'),
+    publicPath: path.resolve('/'),
+    filename: 'bundle.js'
+  },
+  devServer: {
+    contentBase: './dist'
   },
   module: {
-    preLoaders: [
-        { test: /\.json$/, loader: 'json'},
-    ],
-    loaders: [
-      {
-        test: /\.jsx$/,
-        exclude: /node_modules/,
-        loader: 'babel',
-        query: {
-          presets: ['es2015', 'react']
-        }
-      }
-    ]
+    loaders: [{
+      test: /\.jsx$/,
+      exclude: /node_modules/,
+      loader: 'babel'
+    }]
+  },
+  resolve: {
+    extensions: ['', '.js', '.jsx']
   }
 }
