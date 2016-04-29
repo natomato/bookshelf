@@ -1,6 +1,15 @@
 # Results Page
 
 ## Components
+```js
+ResultsPage
+  SearchContainer
+    SearchBar
+  FilterContainer
+    Filter
+  ItemsContainer
+    Item
+```
 
 ### SearchBar
 State: search term to autofill  
@@ -8,7 +17,7 @@ Action: SEARCH
 ```js
 {
   type: SEARCH,
-  query: 'users query'  
+  query: 'regex'  
 }
 ```
 
@@ -21,7 +30,7 @@ Action: SET_RESOURCE_FILTER
   filter: 'books'  
 }
 ```
-Later I may want to add an availability filter.
+Later I may want to add an availability filter and a source filter.
 
 ### ItemsContainer
 State:   
@@ -45,7 +54,7 @@ State:
   averageRating: 2.5,
   thumbnail: 'http://bookcover.img',
   availability: {
-    libraries: ['Main', 'Potrero'],
+    localLibraries: ['Main', 'Potrero'],
     linkPlus: 'http://linkplusitem',
     purchase: 'http://amazon.com?yourbook'
   }

@@ -22,7 +22,6 @@
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
-    "body-parser": "~1.13.2",
     "immutable": "^3.7.6",
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
