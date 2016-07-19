@@ -1,3 +1,4 @@
 node-modules/
+reference/
 dist/bundle.js
 src/orig/

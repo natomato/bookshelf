@@ -2,11 +2,37 @@
 
 A simple searchbox for the SFPL using react, clones the behavior of a google book search.
 
-### Results Page
-- [x] Break the component into a hierarchy
+### Getting Started
+Launch the app
+```js
+npm start
+```
+
+Run the tests
+```js
+npm run test
+```
+
+### Whats left to do:
+Following [these guidelines](https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a#.xsds8gltu)
+1. ~~Create detailed mock of the screen~~
+2. ~~Divide app into Components~~
+3. ~~List state and actions needed for each component.~~
+4. Create [ducks](https://github.com/erikras/ducks-modular-redux) for each component
+5. Implement presentational components
+6. Create container components where needed
+7. Hook it all up to complete the feature
+
+Create wrapper around the googleapi client that will return a book model
+
+#### Results Page
+- [x] Break the view into a component hierarchy
 - [ ] Buid a static version
 
-WIP:
-Establishing the core logic of the results page
-1. be able to set the results
-2. be able to convert response JSON to expected JSON
+
+#### Dev Environment
+- Add HMR, [here is a guide](https://medium.com/@rajaraodv/webpacks-hmr-react-hot-loader-the-missing-manual-232336dc0d96#.lymd0wa9x)
+- Add PostCSS
+- Setup test runner to look inside components directory
+- Add eslint
+- add react dev tools
