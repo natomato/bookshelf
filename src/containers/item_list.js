@@ -1,27 +1,21 @@
-import React, { Component, PropTypes } from 'react';
+import React from 'react';
 import { connect } from 'react-redux';
+import Image from '../components/Image';
 
-class ItemList extends Component {
-  renderList(item) {
-    return (
-      <li key={item.id}>
-        <img alt="book cover" src={item.thumbnail}></img>
-        <h1>{item.title}</h1>
-        <h2>{item.subtitle}</h2>
-      </li>
-    );
-  }
-  render() {
-    return (
-      <ul>
-        {this.props.items.map(item => this.renderList(item))}
-      </ul>
-    );
-  }
-}
-ItemList.propTypes = {
-  items: PropTypes.object,
-};
+const ItemList = ({ items }) => (
+  <ul>
+    {items.map(item => <Item item={item} key={item.id} />)}
+  </ul>
+);
+
+const Item = ({ item }) => (
+  <li>
+    <Image alt="book cover" src={item.thumbnail} />
+    <h1>{item.title}</h1>
+    <h2>{item.subtitle}</h2>
+  </li>
+);
+
 function mapStateToProps(state) {
   return {
     items: state.items,

@@ -15,6 +15,7 @@ npm run test
 
 ### Whats left to do:
 Following [these guidelines](https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a#.xsds8gltu)
+
 1. ~~Create detailed mock of the screen~~
 2. ~~Divide app into Components~~
 3. ~~List state and actions needed for each component.~~
@@ -22,17 +23,11 @@ Following [these guidelines](https://medium.com/@rajaraodv/step-by-step-guide-to
 5. Implement presentational components
 6. Create container components where needed
 7. Hook it all up to complete the feature
-
-Create wrapper around the googleapi client that will return a book model
-
-#### Results Page
-- [x] Break the view into a component hierarchy
-- [ ] Buid a static version
-
+8. Create wrapper around the googleapi client that will return a book model
 
 #### Dev Environment
 - Add HMR, [here is a guide](https://medium.com/@rajaraodv/webpacks-hmr-react-hot-loader-the-missing-manual-232336dc0d96#.lymd0wa9x)
 - Add PostCSS
-- Setup test runner to look inside components directory
+- Setup test runner
 - Add eslint
-- add react dev tools
+- Add react dev tools
