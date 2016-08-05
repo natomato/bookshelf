@@ -1,6 +1,6 @@
 ## Bookshelf
 
-A simple searchbox for the SFPL using react, clones the behavior of a google book search.
+A simple search box for the SFPL using react, clones the behavior of a google book search.
 
 ### Getting Started
 Launch the app
